@@ -17,7 +17,7 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Play");
+        // Debug.Log("Play");
     }
 
     void Update()
@@ -27,9 +27,7 @@ public class GameController : MonoBehaviour
             //Debug.Log("Space is pressed");
             SpawnFill();
         }
-
         SlideMethod();
-
     }
 
     public void SpawnFill()
@@ -38,7 +36,7 @@ public class GameController : MonoBehaviour
         int whichSpawn = UnityEngine.Random.Range(0, Cells.Length);
         if (Cells[whichSpawn].childCount != 0)
         {
-            Debug.Log(Cells[whichSpawn].name + " is spawned");
+            // Debug.Log(Cells[whichSpawn].name + " is already spawned");
             SpawnFill();
             return;
         }

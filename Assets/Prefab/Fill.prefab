@@ -90,7 +90,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 0
   valueDisplay: {fileID: 2729898577544707014}
-  speed: 443
+  speed: 100
 --- !u!1 &2430024948209949930
 GameObject:
   m_ObjectHideFlags: 0
